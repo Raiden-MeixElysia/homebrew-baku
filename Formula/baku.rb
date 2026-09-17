@@ -2,28 +2,28 @@
 class Baku < Formula
   desc "Baku Comic creator CLI: a directory of images becomes a work, a chapter, a submission"
   homepage "https://baku-comic.com/docs/cli"
-  version "0.1.0"
+  version "0.1.1"
   license "UNLICENSED"
 
   on_macos do
     on_arm do
-      url "https://storage.baku-comic.com/public/cli/0.1.0/baku-0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5ed0adfe84fd130fd3cf5e8796025b77943b8c4307250dcae001b2b349efddf6"
+      url "https://storage.baku-comic.com/public/cli/0.1.1/baku-0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "0d402a09c260d7cf0ff1c5ce59426ea5a58af6c330299148a7c0a556922badb4"
     end
     on_intel do
-      url "https://storage.baku-comic.com/public/cli/0.1.0/baku-0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "edc8c5b228f6455693136b32cfb19c95200fa9d8718987188ad604e974e7ab48"
+      url "https://storage.baku-comic.com/public/cli/0.1.1/baku-0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "201f3f538ac78cf341ad5ec74da98479cd528e3ab4ecce6a470c569af6cb9182"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://storage.baku-comic.com/public/cli/0.1.0/baku-0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "16188b38ccb64f64a147e1329e5ceac7d34c34290121dc8caaec48a49a960d99"
+      url "https://storage.baku-comic.com/public/cli/0.1.1/baku-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "8acd73553b4e5ee733cfe082a63b2181fef3bbaea2df494778440229804bae09"
     end
     on_intel do
-      url "https://storage.baku-comic.com/public/cli/0.1.0/baku-0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dbe5029badeb1a6176fcc930886d26a04b40845318c2e2e6ebc01103bb0b4ff7"
+      url "https://storage.baku-comic.com/public/cli/0.1.1/baku-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "787a35f96c5d76ab27483739a009b1c435d248bb37ed4e91e09a8a2272d0739f"
     end
   end
 
